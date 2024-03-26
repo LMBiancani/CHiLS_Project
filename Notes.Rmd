@@ -1,0 +1,37 @@
+---
+title: "Project Notes and Code"
+author: "Leann M. Biancani"
+date: "2024-03-26"
+output: pdf_document
+---
+
+# Links
+
+* Paper: [CHiLS: Zero-Shot Image Classification with Hierarchical Label Sets](https://arxiv.org/abs/2302.02551)
+* Poster: [ICML 2023](https://icml.cc/virtual/2023/poster/24774)
+* Code: [GitHub - CHiLS](https://github.com/acmi-lab/CHILS)
+
+```{r setup, include=FALSE}
+library(reticulate) # includes Python engine for R Markdown that enables easy interoperability between Python and R chunks
+# How to use python in R markdown: https://rstudio.github.io/reticulate/articles/r_markdown.html
+py_config() # force the initialization of Python (see: https://github.com/rstudio/reticulate/blob/main/R/config.R)
+# answer "no" for Would you like to create a default python environment for the reticulate package? (Yes/no/cancel)
+```
+# Recreating the paper results
+## 0. Clone Repository
+```{bash}
+#git clone https://github.com/acmi-lab/CHILS
+```
+## 1. Setting up the environment and datasets
+
+
+
+
+## 2. Caching the CLIP-extracted features for each dataset and model
+
+
+## 3. Running zero-shot inference
+
+
+```{bash}
+```
